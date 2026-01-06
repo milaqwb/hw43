@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lazy Loading з IntersectionObserver</h1>
+
+    <div class="container">
+      <img data-src="https://picsum.photos/id/1015/1200/800" alt="Image 1" />
+      <img data-src="https://picsum.photos/id/1025/1200/800" alt="Image 2" />
+      <img data-src="https://picsum.photos/id/1035/1200/800" alt="Image 3" />
+      <img data-src="https://picsum.photos/id/1045/1200/800" alt="Image 4" />
+      <img data-src="https://picsum.photos/id/1055/1200/800" alt="Image 5" />
+
+      <button id="loadAll">Завантажити всі зображення</button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
